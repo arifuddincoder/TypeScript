@@ -102,7 +102,7 @@
 2. **How can you create a reusable generic function in TypeScript that takes an object and a key, and returns the value of that key with full type safety using `keyof`?**  
    🔹 *TypeScript-এ কীভাবে একটি পুনর্ব্যবহারযোগ্য (reusable) generic ফাংশন তৈরি করা যায় যা একটি অবজেক্ট এবং একটি key ইনপুট হিসেবে নেয় এবং `keyof` ব্যবহার করে সম্পূর্ণ টাইপ সেফটি বজায় রেখে ঐ key-এর value রিটার্ন করে?*
 
-   
+
 ---
 
 ## 📚 2.8: Asynchronous TypeScript & API Typing
@@ -115,3 +115,18 @@
 
 3. **How can you fetch data from JSONPlaceholder using asynchronous TypeScript? How can you define types or aliases for the API response?**  
    🔹 *Asynchronous TypeScript ব্যবহার করে কীভাবে JSONPlaceholder থেকে ডেটা ফেচ করা যায়? এবং কীভাবে API response-এর জন্য type বা alias সংজ্ঞায়িত করা যায়?*
+
+
+---
+
+
+## 📚 2.9: Conditional Types in TypeScript
+
+1. **What is a conditional type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ conditional type কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+2. **What is a nested conditional type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ nested conditional type কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+3. **Explain conditional types using a real-life example: Suppose a Dubai Sheikh owns many things like motorcycles, cars, etc. Write a conditional type to check if a given item is a car, bike, sheep, or tractor.**  
+   🔹 *ধরা যাক, একজন দুবাইয়ের শেখের অনেক কিছু আছে যেমন মোটরসাইকেল, গাড়ি ইত্যাদি। এখন conditional type ব্যবহার করে নির্ধারণ করো কোনটি car, bike, sheep বা tractor।*
