@@ -101,3 +101,17 @@
 
 2. **How can you create a reusable generic function in TypeScript that takes an object and a key, and returns the value of that key with full type safety using `keyof`?**  
    🔹 *TypeScript-এ কীভাবে একটি পুনর্ব্যবহারযোগ্য (reusable) generic ফাংশন তৈরি করা যায় যা একটি অবজেক্ট এবং একটি key ইনপুট হিসেবে নেয় এবং `keyof` ব্যবহার করে সম্পূর্ণ টাইপ সেফটি বজায় রেখে ঐ key-এর value রিটার্ন করে?*
+
+   
+---
+
+## 📚 2.8: Asynchronous TypeScript & API Typing
+
+1. **Explain asynchronous programming in TypeScript with an example as shown in the tutorial.**  
+   🔹 *টিউটোরিয়াল অনুযায়ী একটি উদাহরণসহ TypeScript-এ asynchronous প্রোগ্রামিং ব্যাখ্যা করো।*
+
+2. **Why is the ES6 version required to compile promises in TypeScript?**  
+   🔹 *TypeScript-এ promise কম্পাইল করার জন্য কেন ES6 ভার্সন প্রয়োজন হয়?*
+
+3. **How can you fetch data from JSONPlaceholder using asynchronous TypeScript? How can you define types or aliases for the API response?**  
+   🔹 *Asynchronous TypeScript ব্যবহার করে কীভাবে JSONPlaceholder থেকে ডেটা ফেচ করা যায়? এবং কীভাবে API response-এর জন্য type বা alias সংজ্ঞায়িত করা যায়?*
