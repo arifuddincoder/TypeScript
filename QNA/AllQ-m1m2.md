@@ -1,0 +1,69 @@
+## 📚 2.1: Type Assertion & Type Narrowing
+
+1. **What is Type Assertion in TypeScript? Give an example using the `as` keyword.**  
+   🔹 *Type Assertion বলতে কী বোঝায়? `as` কিওয়ার্ড ব্যবহার করে একটি উদাহরণ দাও।*
+
+2. **What is Type Narrowing in TypeScript? How can you use `typeof` to narrow a type?**  
+   🔹 *Type Narrowing কী? কিভাবে `typeof` ব্যবহার করে টাইপ নির্ধারণ (narrow) করা যায়?*
+
+3. **Write a function that accepts `string | number` and performs different logic based on the type.**  
+   🔹 *একটি ফাংশন লিখো যা `string | number` ইনপুট নেয় এবং টাইপ অনুযায়ী আলাদা আলাদা লজিক চালায়।*
+
+4. **What is the difference between type assertion and type narrowing? When should you use each?**  
+   🔹 *Type Assertion এবং Type Narrowing-এর মধ্যে পার্থক্য কী? কখন কোনটি ব্যবহার করা উচিত?*
+
+---
+
+## 📚 2.2: Interface vs Type Alias
+
+1. **What is an interface in TypeScript? How is it different from a type alias?**  
+   🔹 *TypeScript-এ interface কী? এটি type alias থেকে কীভাবে আলাদা?*
+
+2. **In which cases can we use `type` but not `interface` in TypeScript?**  
+   🔹 *TypeScript-এ কোন কোন ক্ষেত্রে `type` ব্যবহার করা যায় কিন্তু `interface` ব্যবহার করা যায় না?*
+
+3. **How can you create an intersection using `interface` in TypeScript?**  
+   🔹 *TypeScript-এ `interface` ব্যবহার করে কীভাবে intersection তৈরি করা যায়?*
+
+4. **How can we extend both `type` and `interface` in TypeScript?**  
+   🔹 *TypeScript-এ `type` এবং `interface` — উভয়কেই কীভাবে extend করা যায়?*
+
+5. **How can we use an interface with arrays in TypeScript? Also, is an array an object or a function?**  
+   🔹 *TypeScript-এ array-এর সঙ্গে `interface` কীভাবে ব্যবহার করা যায়? এবং array কি object না function?*
+
+6. **How can we use `type` and `interface` with functions? When should we use one over the other?**  
+   🔹 *Function-এর সঙ্গে `type` এবং `interface` কীভাবে ব্যবহার করা যায়? কখন কোনটি ব্যবহার করা উচিত?*
+
+7. **In the case of arrays, which one should you prefer between `type` and `interface`? What about for functions and objects?**  
+   🔹 *Array-এর ক্ষেত্রে `type` নাকি `interface` ব্যবহার করা উচিত? Function এবং object-এর ক্ষেত্রেও কোনটি ব্যবহার করা ভালো?*
+
+---
+
+## 📚 2.3: Generics in TypeScript
+
+1. **What are generics in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ Generics কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+2. **How can you make a generic type reusable in TypeScript?**  
+   🔹 *TypeScript-এ কীভাবে একটি generic টাইপ পুনর্ব্যবহারযোগ্য (reusable) করা যায়?*
+
+3. **How can you use generics with array types? Explain with examples.**  
+   🔹 *Array টাইপের সঙ্গে generics কীভাবে ব্যবহার করা যায়? উদাহরণসহ ব্যাখ্যা করো।*
+
+4. **How can you use generics with objects? Also, what is a use case for an array of generic objects?**  
+   🔹 *Generic কীভাবে object-এর সঙ্গে ব্যবহার করা যায়? এবং generic object array-এর ব্যবহার কোথায় হয়?*
+
+5. **How can you create a generic tuple in TypeScript?**  
+   🔹 *TypeScript-এ কীভাবে একটি generic tuple তৈরি করা যায়?*
+
+---
+
+## 📚 2.4: Generic Interface & Nullable Generics
+
+1. **How can you use generics with interfaces in TypeScript? Explain with an example.**  
+   🔹 *TypeScript-এ interface-এর সঙ্গে generics কীভাবে ব্যবহার করা যায়? একটি উদাহরণসহ ব্যাখ্যা করো।*
+
+2. **How can you pass `null` as a generic parameter when there is no value?**  
+   🔹 *যখন কোনো মান নেই, তখন কীভাবে generic parameter হিসেবে `null` পাঠানো যায়?*
+
+---
