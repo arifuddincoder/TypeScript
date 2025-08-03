@@ -67,3 +67,37 @@
    🔹 *যখন কোনো মান নেই, তখন কীভাবে generic parameter হিসেবে `null` পাঠানো যায়?*
 
 ---
+
+## 📚 2.5: Advanced Generics Use Cases
+
+1. **How can you use generics in functions in TypeScript?**  
+   🔹 *TypeScript-এ ফাংশনে কীভাবে generics ব্যবহার করা যায়?*
+
+2. **My teacher once said we should not add object types directly. Why is that? Give an example.**  
+   🔹 *আমার শিক্ষক একবার বলেছিলেন সরাসরি object টাইপ না দেওয়াই ভালো — কেন? একটি উদাহরণ দাও।*
+
+3. **How can you create an array of tuples using a function?**  
+   🔹 *ফাংশন ব্যবহার করে কীভাবে tuple-এর array তৈরি করা যায়?*
+
+4. **Suppose we have a course called 'Next Level Web Dev', and we want to add students to an object where the course name remains constant, but the student information changes. How can we structure such an object?**  
+   🔹 *ধরা যাক আমাদের একটি কোর্স আছে যার নাম 'Next Level Web Dev', এবং আমরা এমন একটি অবজেক্ট তৈরি করতে চাই যেখানে কোর্সের নাম অপরিবর্তিত থাকবে কিন্তু প্রতিবার আলাদা আলাদা ছাত্র যুক্ত হবে। কীভাবে এমন অবজেক্ট স্ট্রাকচার করা যায়?*
+
+---
+
+
+## 📚 2.6: Generic Constraints & keyof Operator
+
+1. **Based on the previous question, how can you enforce that each student must have three properties: `id`, `name`, and `email`?**  
+   🔹 *আগের প্রশ্নের ভিত্তিতে, কীভাবে নিশ্চিত করা যায় যে প্রতিটি student-এর মধ্যে `id`, `name`, এবং `email` এই তিনটি প্রপার্টি অবশ্যই থাকবে?*
+
+
+---
+
+
+## 📚 2.7: Generic Constraints & keyof Operator
+
+1. **What are constraints in TypeScript generics? Explain generic constraints using the `keyof` operator with examples.**  
+   🔹 *TypeScript-এর generics-এ constraint কী? `keyof` অপারেটর ব্যবহার করে generic constraint-এর ব্যাখ্যা দাও উদাহরণসহ।*
+
+2. **How can you create a reusable generic function in TypeScript that takes an object and a key, and returns the value of that key with full type safety using `keyof`?**  
+   🔹 *TypeScript-এ কীভাবে একটি পুনর্ব্যবহারযোগ্য (reusable) generic ফাংশন তৈরি করা যায় যা একটি অবজেক্ট এবং একটি key ইনপুট হিসেবে নেয় এবং `keyof` ব্যবহার করে সম্পূর্ণ টাইপ সেফটি বজায় রেখে ঐ key-এর value রিটার্ন করে?*
