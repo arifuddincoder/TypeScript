@@ -130,3 +130,26 @@
 
 3. **Explain conditional types using a real-life example: Suppose a Dubai Sheikh owns many things like motorcycles, cars, etc. Write a conditional type to check if a given item is a car, bike, sheep, or tractor.**  
    🔹 *ধরা যাক, একজন দুবাইয়ের শেখের অনেক কিছু আছে যেমন মোটরসাইকেল, গাড়ি ইত্যাদি। এখন conditional type ব্যবহার করে নির্ধারণ করো কোনটি car, bike, sheep বা tractor।*
+
+
+---
+
+
+ ## 📚 2.10: Mapped Types & Lookup Types
+
+1. **What does the `map()` method return in JavaScript?**  
+   🔹 *JavaScript-এ `map()` মেথড কী রিটার্ন করে?*
+
+2. **What are mapped types in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ mapped types কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+3. **What is a lookup type in TypeScript?**  
+   🔹 *TypeScript-এ lookup type কী?*
+
+4. **How can you use mapped types with generics to make them more flexible? Why is this needed? Provide an example to illustrate.**  
+   🔹 *Mapped types-কে generic-এর সঙ্গে কীভাবে আরও flexible করা যায়? এটি কেন প্রয়োজন? একটি উদাহরণ দিয়ে ব্যাখ্যা করো।*
+
+
+---
+
+
