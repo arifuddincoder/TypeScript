@@ -1,3 +1,8 @@
+## Questions from Programming Hero: 
+[https://github.com/Apollo-Level2-Web-Dev/batch-4-be-a-typescript-technocrat/blob/main/practice_probelms.md](https://github.com/Apollo-Level2-Web-Dev/batch-4-be-a-typescript-technocrat/blob/main/practice_probelms.md)
+
+---
+
 ## 📚 2.1: Type Assertion & Type Narrowing
 
 1. **What is Type Assertion in TypeScript? Give an example using the `as` keyword.**  
@@ -153,3 +158,25 @@
 ---
 
 
+## 📚 2.11: Utility Types in TypeScript
+
+1. **What are utility types in TypeScript? Which utility types are most commonly used in real-life projects? Give some examples.**  
+   🔹 *TypeScript-এ utility types কী? কোন কোন utility type বাস্তব প্রজেক্টে সবচেয়ে বেশি ব্যবহৃত হয়? কিছু উদাহরণ দাও।*
+
+2. **What is the `Pick` utility type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ `Pick` utility type কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+3. **What is the `Omit` utility type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ `Omit` utility type কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+4. **What is the `Required` utility type in TypeScript? In what situations should you use it? Explain with examples.**  
+   🔹 *TypeScript-এ `Required` utility type কী? কখন এটি ব্যবহার করা উচিত? উদাহরণসহ ব্যাখ্যা করো।*
+
+5. **What is the `Partial` utility type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ `Partial` utility type কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+6. **What is the `Readonly` utility type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ `Readonly` utility type কী? উদাহরণসহ ব্যাখ্যা করো।*
+
+7. **What is the `Record` utility type in TypeScript? Explain with examples.**  
+   🔹 *TypeScript-এ `Record` utility type কী? উদাহরণসহ ব্যাখ্যা করো।*
