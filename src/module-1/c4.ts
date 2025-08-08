@@ -46,4 +46,18 @@
 	//অন্য ডেভেলপার বুঝবে না ভ্যারিয়েবল আসলে কী টাইপের
 
 	//**How to write array in TypeScript for strings array and for numbers?**
+	// 🔹 TypeScript এ String ও Number Array লেখার পদ্ধতি
+	// TypeScript এ array টাইপ করার দুটি সাধারণ উপায় আছে।
+
+	// পদ্ধতি ১: string[]
+	let fruits: string[] = ["apple", "banana", "mango"];
+
+	// পদ্ধতি ২: Array<string>
+	let colors: Array<string> = ["red", "green", "blue"];
+
+	// পদ্ধতি ১: number[]
+	let scores: number[] = [90, 85, 100];
+
+	// পদ্ধতি ২: Array<number>
+	let ids: Array<number> = [1, 2, 3, 4];
 }
