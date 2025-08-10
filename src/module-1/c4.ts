@@ -60,4 +60,19 @@
 
 	// পদ্ধতি ২: Array<number>
 	let ids: Array<number> = [1, 2, 3, 4];
+
+	//6. **Can you explain what a Tuple is in TypeScript, and how it differs from a regular array?**
+	//Tuple হচ্ছে TypeScript-এর এক ধরনের বিশেষ array যেখানে:
+
+	// উপাদানের সংখ্যা নির্দিষ্ট (fixed length)
+
+	// প্রতিটি অবস্থানের (index) ডেটাটাইপ আগে থেকে নির্ধারিত
+	//অর্থাৎ, একটা tuple বানালে তার length ও প্রতিটি index-এ কোন type থাকবে, সেটা শুরুতেই ঠিক করে দিতে হয়।
+
+	let user: [string, number];
+	user = ["Arif", 25]; // ✅ সঠিক
+	// user = [25, "Arif"]; // ❌ ভুল, কারণ টাইপ মিলে নাই
+
+	let numbers: number[] = [1, 2, 3, 4]; // সব number
+	let mixed: (string | number)[] = ["Arif", 25, "Developer", 100]; // mixed
 }
