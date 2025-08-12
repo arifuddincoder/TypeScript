@@ -61,7 +61,7 @@
 	// পদ্ধতি ২: Array<number>
 	let ids: Array<number> = [1, 2, 3, 4];
 
-	//6. **Can you explain what a Tuple is in TypeScript, and how it differs from a regular array?**
+	//**6. Can you explain what a Tuple is in TypeScript, and how it differs from a regular array**
 	//Tuple হচ্ছে TypeScript-এর এক ধরনের বিশেষ array যেখানে:
 
 	// উপাদানের সংখ্যা নির্দিষ্ট (fixed length)
