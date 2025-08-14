@@ -69,4 +69,37 @@ Boolean Literal Types
 	let isMarried: true;
 	isMarried = true; // ✅
 	isMarried = false; // ❌ Error
+
+	// **3. What is access modifier? How to make an object property unchangeable?**
+
+	/*
+	Access Modifier
+	TypeScript-এ access modifier হলো একটি কীওয়ার্ড যা কোনো ক্লাসের property বা method-এর visibility (কোথা থেকে অ্যাক্সেস করা যাবে) নিয়ন্ত্রণ করে।
+	সবচেয়ে প্রচলিত access modifiers হলো:
+
+	public – ডিফল্ট। ক্লাসের ভেতর, বাইরের কোড, সাবক্লাস — সব জায়গা থেকে অ্যাক্সেস করা যায়।
+
+	private – শুধু সেই ক্লাসের ভেতর থেকেই অ্যাক্সেস করা যায়।
+
+	protected – সেই ক্লাস এবং তার সাবক্লাস থেকে অ্যাক্সেস করা যায়।
+
+	*/
+
+	class Person {
+		public name: string; // anywhere
+		private ssn: string; // only inside class
+		protected age: number; // class + subclass
+
+		constructor(name: string, ssn: string, age: number) {
+			this.name = name;
+			this.ssn = ssn;
+			this.age = age;
+		}
+	}
+
+	class Employee extends Person {
+		getAge() {
+			return this.age; // ✅ protected property
+		}
+	}
 }
