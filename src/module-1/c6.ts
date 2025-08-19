@@ -34,4 +34,32 @@
 	function logMessage(message: string): void {
 		console.log(message);
 	}
+
+	// ** 3. What is the `this` keyword in functions, and in which situations does it not work as expected?**
+	//  📘 _বাংলায়: ফাংশনের মধ্যে `this` কী, এবং কখন এটি সঠিকভাবে কাজ করে না?_
+
+	// this হলো একটি বিশেষ keyword যা function বা object context নির্দেশ করে।
+	// অর্থাৎ, কে ফাংশনটি কল করেছে সেটার উপর নির্ভর করে this ঠিক হয়।
+
+	const person = {
+		name: "Arif",
+		greet: function () {
+			console.log(this.name);
+		},
+	};
+
+	const fn = person.greet;
+	fn(); // 👉 undefined (কারণ এখন this হলো global / undefined)
+
+	const person = {
+		name: "Arif",
+		greet: () => {
+			console.log(this.name);
+		},
+	};
+
+	person.greet(); // 👉 undefined (Arrow function নিজের `this` bind করে না)
+
+	// 	3. Event handler-এ
+	// DOM event-এ this প্রায়ই element কে নির্দেশ করে, কিন্তু strict mode বা TypeScript-এ এটি undefined হয়ে যেতে পারে।
 }
