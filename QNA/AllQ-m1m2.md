@@ -158,7 +158,7 @@
 4. **How can you use mapped types with generics to make them more flexible? Why is this needed? Provide an example to illustrate.**  
    🔹 *Mapped types-কে generic-এর সঙ্গে কীভাবে আরও flexible করা যায়? এটি কেন প্রয়োজন? একটি উদাহরণ দিয়ে ব্যাখ্যা করো।*
 
-
+5. **Convert the numeric keys of the \AreaNum` type to strings**`
 
 ---
 
