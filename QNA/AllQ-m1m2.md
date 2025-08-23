@@ -169,7 +169,7 @@
 1. **What are utility types in TypeScript? Which utility types are most commonly used in real-life projects? Give some examples.**  
    🔹 *TypeScript-এ utility types কী? কোন কোন utility type বাস্তব প্রজেক্টে সবচেয়ে বেশি ব্যবহৃত হয়? কিছু উদাহরণ দাও।*
 
-2. **What is the `Pick` utility type in TypeScript? Explain with examples.**  
+2. **What is the `Pick` utility type in TypeScript? Explain with examples. How can you pick more than one keys**  
    🔹 *TypeScript-এ `Pick` utility type কী? উদাহরণসহ ব্যাখ্যা করো।*
 
 3. **What is the `Omit` utility type in TypeScript? Explain with examples.**  
