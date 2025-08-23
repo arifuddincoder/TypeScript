@@ -62,4 +62,36 @@
 
 	// 	3. Event handler-এ
 	// DOM event-এ this প্রায়ই element কে নির্দেশ করে, কিন্তু strict mode বা TypeScript-এ এটি undefined হয়ে যেতে পারে।
+
+	// ** 4. What is a method in TypeScript, and how do you define one to demonstrate your understanding?**
+	//  📘 _বাংলায়: TypeScript-এ মেথড কী, এবং শেখানোর জন্য একটি মেথড কীভাবে লিখবেন?_
+
+	// 	TypeScript-এ Method কী?
+
+	// Method হলো কোনো class-এর ভেতরে ডিফাইন করা একটি ফাংশন।
+
+	// এটি সাধারণ ফাংশনের মতোই কাজ করে, তবে এটি সরাসরি class-এর object বা instance-এর সাথে সম্পর্কিত হয়।
+
+	// Method সাধারণত object-এর behavior বা কাজ বোঝায়।
+
+	class Person {
+		name: string;
+		age: number;
+
+		constructor(name: string, age: number) {
+			this.name = name;
+			this.age = age;
+		}
+
+		// 👉 এটি একটি Method
+		greet(): string {
+			return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+		}
+	}
+
+	// অবজেক্ট তৈরি করা হলো
+	const person1 = new Person("Arif", 25);
+
+	// Method কল করা হলো
+	console.log(person1.greet());
 }
