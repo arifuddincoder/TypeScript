@@ -3,14 +3,10 @@
 
 ---
 
-## 📚 3.0: Introduction of Object Oriented Programming
+## 📚 3.1: Class and object
 
-1. **What is Type Assertion in TypeScript? Give an example using the `as` keyword.**  
-   🔹 *Type Assertion বলতে কী বোঝায়? `as` কিওয়ার্ড ব্যবহার করে একটি উদাহরণ দাও।*
-
-2. **What is Type Narrowing in TypeScript? How can you use `typeof` to narrow a type?**  
-   🔹 *Type Narrowing কী? কিভাবে `typeof` ব্যবহার করে টাইপ নির্ধারণ (narrow) করা যায়?*
-
+1. **How do you write a class in TypeScript? Explain with an example (e.g., Animal). How do you create an instance of the class and print it? How can you add a function to the class and what is it called? Explain with an example. Why should you use a normal function instead of an arrow function inside a class? How can you optimize a class?**  
+   🔹 *TypeScript-এ কীভাবে একটি class লিখতে হয়? একটি উদাহরণ দাও (যেমন: Animal)। এরপর কীভাবে সেই class-এর instance তৈরি করে প্রিন্ট করা যায়? কীভাবে class-এর মধ্যে একটি function যোগ করা যায় এবং তাকে কী বলা হয়? উদাহরণসহ ব্যাখ্যা করো। কেন class-এর ভেতরে arrow function না দিয়ে normal function ব্যবহার করা উচিত? কীভাবে একটি class optimize করা যায়?*
 
 
 ---
