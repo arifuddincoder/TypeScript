@@ -16,6 +16,12 @@
 1. **What is inheritance in OOP? Explain with an example (e.g., Teacher–Student or Father–Son).**  
    🔹 ** OOP-এ Inheritance কী? একটি উদাহরণসহ ব্যাখ্যা করুন (যেমন: শিক্ষক–শিক্ষার্থী, বাবা–ছেলে)। **
 
+---
 
+## 📚 3.3: Type guard using typeof & in
+
+1. **Let's say you send two numbers/strings to a function, and you want to concatenate them in TypeScript. How can you do it? In this function, how can you use a type guard? How many types of guards are there in TypeScript? Explain with examples in a function.**
+   🔹 **ধরা যাক, তুমি একটি ফাংশনে দুইটি সংখ্যা/স্ট্রিং পাঠাবে এবং সেগুলোকে TypeScript-এ concatenate করতে চাও। এটি কীভাবে করা যায়? সেই ফাংশনে কীভাবে type guard ব্যবহার করবে? TypeScript-এ কয় ধরনের guard আছে? একটি ফাংশনের মাধ্যমে উদাহরণসহ ব্যাখ্যা করো।**
+   
 ---
 

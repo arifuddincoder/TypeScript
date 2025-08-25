@@ -22,9 +22,9 @@
 	}
 
 	class Teacher extends Common {
-		constructor(public name: string, public address: string, public title: string) {
+		constructor(public name: string, public address: string, public designation: string) {
 			super(name, address);
-			this.title = title;
+			this.designation = designation;
 		}
 	}
 
