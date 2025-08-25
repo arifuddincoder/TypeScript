@@ -20,3 +20,21 @@ class Animal {
 const kutta = new Animal("German Sphered", "Dog", "ghew ghew");
 
 console.log(kutta.makeSound());
+
+// optimization code
+
+class Animal1 {
+	constructor(public name: string, public species: string, public sound: string) {
+		name;
+		species;
+		sound;
+	}
+
+	makeSound() {
+		return `${this.name} is making sound of ${this.sound}`;
+	}
+}
+
+const cat = new Animal1("Bilai", "Persian Cat", "Mew Mew");
+
+console.log(cat.makeSound());
