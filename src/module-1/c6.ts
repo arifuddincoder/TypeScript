@@ -94,4 +94,34 @@
 
 	// Method কল করা হলো
 	console.log(person1.greet());
+
+	// ** 5. What is the `map()` function in TypeScript, how do you use it, and how can you add an explicit type to it?**
+	//  📘 _বাংলায়: TypeScript-এ `map()` ফাংশন কী, এটি কীভাবে ব্যবহার করবেন এবং এতে কীভাবে explicit টাইপ যুক্ত করবেন?_
+
+	// map() হলো TypeScript (এবং JavaScript)-এর একটি built-in array method যেটি প্রতিটি array element এর উপর একটি function চালায় এবং একটি নতুন array রিটার্ন করে। মূল array পরিবর্তন হয় না।
+
+	const numbers: number[] = [1, 2, 3, 4];
+
+	// callback-এ parameter এবং return type দুটোই declare করা হলো
+	const doubled: number[] = numbers.map((num: number): number => {
+		return num * 2;
+	});
+
+	console.log(doubled); // [2, 4, 6, 8]
+
+	// example 2
+	type User = {
+		name: string;
+		age: number;
+	};
+
+	const users: User[] = [
+		{ name: "Arif", age: 25 },
+		{ name: "Hasan", age: 30 },
+	];
+
+	// শুধু নামগুলো বের করতে চাইলে
+	const names: string[] = users.map((user: User): string => user.name);
+
+	console.log(names); // ["Arif", "Hasan"]
 }
