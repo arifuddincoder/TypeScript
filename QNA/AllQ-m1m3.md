@@ -32,3 +32,10 @@
    
 ---
 
+## 📚 3.5: Access modifiers
+
+1. **Explain access modifiers with an example (e.g., BankAccount). How can you prevent a property of a class from being changed? How many access modifiers are available in a TypeScript class? Since a bank balance is important, how can you update it safely? What is the naming convention for private properties in a class? In a child class, which properties cannot be accessed? What is the difference between private, protected, and public properties in a class?**
+   🔹 **Access modifiers উদাহরণসহ ব্যাখ্যা করো (যেমন: BankAccount)। কীভাবে একটি ক্লাসের কোনো প্রপার্টিকে পরিবর্তন হওয়া থেকে রোধ করা যায়? TypeScript ক্লাসে কয় ধরনের access modifier আছে? ব্যাংকের balance গুরুত্বপূর্ণ, একে কীভাবে নিরাপদে পরিবর্তন করবে? ক্লাসে private প্রপার্টির নামকরণের কনভেনশন কী? একটি child ক্লাসে কোন প্রপার্টি অ্যাক্সেস করা যায় না? private, protected এবং public প্রপার্টির মধ্যে পার্থক্য কী?**
+   
+---
+
