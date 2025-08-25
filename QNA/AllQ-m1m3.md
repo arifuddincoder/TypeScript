@@ -25,3 +25,10 @@
    
 ---
 
+## 📚 3.4: Type guard using instance of
+
+1. **Explain the `instanceof` guard with an example (e.g., Animal class). How can you handle it smartly? what is type narrowing?**
+   🔹 **`instanceof` guard উদাহরণসহ ব্যাখ্যা করো (যেমন: Animal ক্লাস)। কীভাবে এটি স্মার্টভাবে ব্যবহার করা যায়?**
+   
+---
+
