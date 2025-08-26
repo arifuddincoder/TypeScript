@@ -39,3 +39,10 @@
    
 ---
 
+## 📚 3.6: Getter and setter
+
+1. **What are Getters and Setters? Explain with examples. **
+   🔹 **Getter এবং Setter কী? উদাহরণসহ ব্যাখ্যা করো।**
+   
+---
+
