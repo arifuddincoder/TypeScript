@@ -53,3 +53,10 @@
    
 ---
 
+## 📚 3.8: Polymorphism
+
+1. **What is Polymorphism? Explain it with an example (e.g., Person, Shape).**
+   🔹 **Polymorphism কী? Person বা Shape-এর মতো উদাহরণ দিয়ে ব্যাখ্যা করো।**
+   
+---
+

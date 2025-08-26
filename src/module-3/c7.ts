@@ -32,12 +32,12 @@
 	console.log(Counter.getCount()); // 1
 }
 {
-	//   Static কী?
+	//  **Static কী?
 	// Static property বা method হলো এমন কিছু যা class-এর সাথে যুক্ত থাকে, কিন্তু কোনো instance (object) তৈরি না করেও ব্যবহার করা যায়।
 	// static কীওয়ার্ড দিয়ে define করা হয়।
 	// কল করতে হয় ClassName.member দিয়ে, যেমন Counter.getCount()।
 	// সাধারণত utility ফাংশন, গ্লোবাল কাউন্টার, বা class-লেভেল data রাখার জন্য ব্যবহার করা হয়।
-	// কেন this কাজ করে না?
+	// **কেন this কাজ করে না?
 	// Static method/property instance-এর অংশ নয়। তাই static context-এ this কোনো অবজেক্টকে নির্দেশ করে না।
 	// এজন্য সরাসরি this.count ব্যবহার করা যায় না → বরং Counter.count লিখতে হয়।
 }
