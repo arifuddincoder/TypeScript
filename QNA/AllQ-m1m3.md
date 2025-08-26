@@ -69,3 +69,10 @@
    🔹 **Abstract Class কী? একটি উদাহরণসহ ব্যাখ্যা করো (যেমন: Vehicle)।**
 ---
 
+## 📚 3.10: Encapsulation in OOP
+
+1. **What is Encapsulation? Explain it with an example. In a class, what things can be encapsulated?**  
+   🔹 **Encapsulation কী? একটি উদাহরণসহ ব্যাখ্যা করো। একটি ক্লাসে কোন কোন জিনিস encapsulate করা যায়?**
+
+---
+
