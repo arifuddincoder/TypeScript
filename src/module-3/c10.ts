@@ -37,6 +37,6 @@ class BankAccount {
 const account = new BankAccount(1000);
 
 console.log(account.balance); // 1000
-account.deposit(500); // balance = 1500
+account.deposit(600); // balance = 1600
 console.log(account.balance); // 1500
 // account._balance = 99999;  // ❌ Error → সরাসরি অ্যাক্সেস করা যাবে না (Encapsulation)
