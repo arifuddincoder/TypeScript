@@ -1,7 +1,7 @@
 {
-	// 1. **What is Abstraction? Explain it with an example (e.g., Vehicle).**
+	// ** 1. What is Abstraction? Explain it with an example (e.g., Vehicle).**
 	//    🔹 **Abstraction কী? একটি উদাহরণসহ ব্যাখ্যা করো (যেমন: Vehicle)।**
-	// 2. **What is an Abstract Class? Explain it with an example (e.g., Vehicle).**
+	// ** 2. What is an Abstract Class? Explain it with an example (e.g., Vehicle).**
 	//    🔹 **Abstract Class কী? একটি উদাহরণসহ ব্যাখ্যা করো (যেমন: Vehicle)।**
 
 	// 1) Abstraction with an Interface
