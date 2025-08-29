@@ -1,5 +1,5 @@
 {
-	// 1. **What are statics in TypeScript OOP? Explain with examples.
+	// ** 1. What are statics in TypeScript OOP? Explain with examples.
 	//     Why doesn’t the `this` keyword work in this context?**
 	//    🔹 **TypeScript OOP-এ statics কী? উদাহরণসহ ব্যাখ্যা করো।
 	//        এই ক্ষেত্রে কেন `this` কীওয়ার্ড কাজ করে না **
