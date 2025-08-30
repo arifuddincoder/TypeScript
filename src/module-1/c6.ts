@@ -4,11 +4,11 @@
 
 	//TypeScript-এ ফাংশন লেখার সময় আপনাকে টাইপ ডিক্লেয়ার করতে হয় (প্যারামিটার ও রিটার্ন টাইপ)।
 
-	function add(a: number, b: number): number {
+	function add1(a: number, b: number): number {
 		return a + b;
 	}
 
-	console.log(add(5, 3)); // Output: 8
+	console.log(add1(5, 3)); // Output: 8
 
 	const multiply = (x: number, y: number): number => {
 		return x * y;
@@ -41,20 +41,20 @@
 	// this হলো একটি বিশেষ keyword যা function বা object context নির্দেশ করে।
 	// অর্থাৎ, কে ফাংশনটি কল করেছে সেটার উপর নির্ভর করে this ঠিক হয়।
 
-	const person = {
+	const person2 = {
 		name: "Arif",
 		greet: function () {
 			console.log(this.name);
 		},
 	};
 
-	const fn = person.greet;
+	const fn = person2.greet;
 	fn(); // 👉 undefined (কারণ এখন this হলো global / undefined)
 
 	const person = {
-		name: "Arif",
+		name4: "Arif",
 		greet: () => {
-			console.log(this.name);
+			console.log(this.name4);
 		},
 	};
 
